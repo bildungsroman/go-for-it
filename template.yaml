@@ -9,7 +9,7 @@ Resources:
         - Stack ${StackTagName} Environment ${EnvironmentTagName} Function ${ResourceName}
         - ResourceName: goFunction
       CodeUri: src/goFunction
-      Handler: main.Handler
+      Handler: main
       Runtime: go1.x
       MemorySize: 3008
       Timeout: 30
